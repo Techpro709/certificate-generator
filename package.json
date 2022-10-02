@@ -1,6 +1,6 @@
 {
   "name": "certificate_generator",
-  "homepage": "http://vedant-jain03.github.io/certificate-generator",
+  "homepage": "http://techpro709.github.io/certificate-generator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +22,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "set PORT=5001&&react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

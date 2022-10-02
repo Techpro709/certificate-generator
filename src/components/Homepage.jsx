@@ -135,9 +135,6 @@ function Homepage() {
                 </div>
                 <div className="right">
                     <button className="info" onClick={() => setpop(true)}>i</button>
-                    <a href="https://github.com/vedant-jain03/certificate-generator">Contribute <ArrowUpwardIcon />  </a>
-                    <a href="https://github.com/vedant-jain03/certificate-generator">Give us <StarOutlineIcon /> </a>
-                    <button onClick={signout}>Logout</button>
                 </div>
             </div>
             <div className="maincontainer">
